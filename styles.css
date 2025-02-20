@@ -1,6 +1,42 @@
-.Anfang{
-  color: black;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.Ende{
-  color: red;
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+header{
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  img {
+    width: 64px;
+    margin-right: 16px;
+  }
+  nav{
+    display: flex;
+    gap: 16px;
+    a {
+      color: black;
+      text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+      
+    }
+    }
+  }
+}
+
+.hero-section{
+  background-color: blue;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
