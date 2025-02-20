@@ -8,6 +8,22 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.cta-btn{
+  padding: 16px 32px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 32px;
+  cursor: pointer;
+  &:hover{
+    background-color: rgb(37, 192, 140);
+
+  }
+  font-weight: 400;
+  font-size: 16px;
+
+}
+
 header{
   display: flex;
   align-items: center;
@@ -32,11 +48,56 @@ header{
 
 .hero-section{
   background-color: blue;
+  background-image: url("./test.jpg");
+  background-position: center;
+  background-size: cover;
   height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+
+  .item-container{
+    background-color: rgba(0, 0, 0, 0.689);
+    padding: 40px;
+    border-radius: 20px;
+    .text-container{
+      color: whitesmoke;
+      .main-title{
+        font-size: 48px;
+      }
+    }
+  }
 }
 
+
+.products-section {
+  padding: 16px;
+
+  .product-card-container{
+    color: black;
+    background-color: black;
+    width: 300px;
+    .product-card-head{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: px;
+      background-color: #b5b5b5;
+    }
+    .product-card-body {
+      height: 180px;
+      img{
+        width: 100%;
+      }
+    }
+
+    .product-card-footer{
+      background-color: #b5b5b5;
+      padding: 32px;
+    }
+  }
+}
 
